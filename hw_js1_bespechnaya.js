@@ -30,16 +30,16 @@ let item_5 = item_3
 // 19. Присвоить переменной item_6 значение 15
 let item_6 = 15
 // 20. Присвоить переменной item_6_type тип переменной item_6
-let item_6_type = Number(item_6)
+let item_6_type = typeof item_6
 // 21. Вывести в консоль тип данных item_6 в виде ——  “item_6 == ”  item_6,  “item_6_type == ”  item_6_type —— 
-console.log("item_6 ——", item_6, "item_6_type ——", typeof item_6_type) 
+console.log("item_6 ==", item_6, "item_6_type ==", item_6_type) 
 // 22. Создать переменную item_7 и в ней преобразовать item_6 в String.
 let item_7 = String(item_6)
-// 23. Создать переменную item_7_type
+// 23. Создать переменную item_7_typen
 // 24. Присвоить переменной item_7_type тип переменной item_7
-let item_7_type = String(item_7)
+let item_7_type = typeof item_7
 // 25. Вывести в консоль тип данных item_7 в виде ——  “item_7 == ”  item_7,  “item_7_type == ”  item_7_type ——  
-console.log("item_7 ——", item_7, "item_7_type ——", typeof item_7_type)
+console.log("item_7 ==", item_7, "item_7_type ==", item_7_type)
 // 26. Создать переменную “age_1” и присвоить ей значение 10
 let age_1 = 10
 // 27. Создать переменную “age_2” и присвоить ей значение 18
@@ -57,7 +57,7 @@ if (age_1 < age_2) {
 else if (age_1 >= age_2 && age_1 < age_3) {
      console.log("Welcome!")
 }
-else if (age_1 > age_3){
+else if (age_1 >= age_3){
    console.log("Keep calm and look Culture channe")
 }
 else {
